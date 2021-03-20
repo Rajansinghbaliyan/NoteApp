@@ -1,0 +1,57 @@
+body {
+  background: #c9d6ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #e2e2e2,
+    #c9d6ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #e2e2e2,
+    #c9d6ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.logo {
+  width: 30%;
+}
+
+.about{
+  height:30vh;
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+
+.rajan{
+  height: 74%;
+  width: 29%;
+  background-image: url('../img/rajan_pic.jfif');
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+.rajan p{
+  color:#fff;
+  font-size: .9rem;
+  position:absolute;
+  top: 80%;
+  left: 2%;
+}
+.vaanya{
+  height: 74%;
+  width: 29%;
+  position: relative;
+  background-image: url('../img/vaanya_pic.jfif');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.vaanya p{
+  color:#fff;
+  font-size: .9rem;
+  position:absolute;
+  top: 80%;
+  left: 11%;
+}
